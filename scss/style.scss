@@ -7,7 +7,7 @@ $white: #fff;
 $black: #000000;
 $darken: #232931;
 
-$primary: #3e64ff;
+$primary: #32343d;
 $secondary: #a0f669;
 
 
@@ -32,11 +32,11 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background: $darken;
+	background: $white;
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 400;
-	color: lighten($black,80%);
+	color: lighten($black,60%);
 	&.menu-show {
 		overflow: hidden;
 		position: fixed;
