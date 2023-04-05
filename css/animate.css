@@ -64,7 +64,6 @@ Copyright (c) 2015 Daniel Eden
     transform: translate3d(0,-4px,0);
   }
 }
-
 @keyframes bounce {
   from, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
