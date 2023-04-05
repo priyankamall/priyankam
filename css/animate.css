@@ -88,7 +88,6 @@ Copyright (c) 2015 Daniel Eden
     transform: translate3d(0,-4px,0);
   }
 }
-
 .bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;
