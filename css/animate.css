@@ -30,7 +30,6 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
-
 .animated.bounceIn,
 .animated.bounceOut {
   -webkit-animation-duration: .75s;
