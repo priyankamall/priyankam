@@ -94,7 +94,6 @@ Copyright (c) 2015 Daniel Eden
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
 }
-
 @-webkit-keyframes flash {
   from, 50%, to {
     opacity: 1;
