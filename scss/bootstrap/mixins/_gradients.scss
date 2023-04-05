@@ -28,7 +28,7 @@
   background-image: linear-gradient($deg, $start-color, $end-color);
   background-repeat: repeat-x;
 }
-@mixin gradient-x-three-colors($start-color: $gray-700, $mid-color: $purple, $color-stop: 50%, $end-color: $red) {
+@mixin gradient-x-three-colors($start-color: $blue, $mid-color: $purple, $color-stop: 50%, $end-color: $red) {
   background-image: linear-gradient(to right, $start-color, $mid-color $color-stop, $end-color);
   background-repeat: no-repeat;
 }
