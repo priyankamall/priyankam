@@ -345,15 +345,12 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: tada;
   animation-name: tada;
 }
-
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
 @-webkit-keyframes wobble {
   from {
     -webkit-transform: none;
     transform: none;
   }
-
   15% {
     -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
     transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
