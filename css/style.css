@@ -3111,7 +3111,7 @@ input[type="button"].btn-block {
     -ms-transform: translateX(0.75rem);
     transform: translateX(0.75rem); }
   .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
-    background-color: rgba(0, 123, 255, 0.5); }
+    background-color: rgb(128,128,128,0);} /*rgba(0, 123, 255, 0.5); }*/
 
 .custom-select {
   display: inline-block;
