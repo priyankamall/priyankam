@@ -1,17 +1,24 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
+
 $font-primary: 'Poppins',Arial, sans-serif;
+
 $white: #fff;
 $black: #000000;
 $darken: #232931;
+
 $primary: #3e64ff;
 $secondary: #a0f669;
+
+
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+
 @mixin transition($transition) {
     -moz-transition:    all $transition ease;
     -o-transition:      all $transition ease;
@@ -19,6 +26,7 @@ $secondary: #a0f669;
     -ms-transition: 		all $transition ease;
     transition:         all $transition ease;
 }
+
 html {
 	// overflow-x: hidden;
 }
@@ -51,9 +59,12 @@ h1, h2, h3, h4, h5,
 	color: rgba(0,0,0,1);
 	font-weight: 400;
 }
+
 .text-primary {
 	color: $primary!important;
 }
+
+
 .ftco-navbar-light {
 	background: transparent!important;
 	position: absolute;
@@ -78,6 +89,7 @@ h1, h2, h3, h4, h5,
 		@include media-breakpoint-up(lg){
 		}
 	}
+
 	.navbar-brand {
 		color: $black;
 		padding-top: .7rem;
@@ -88,7 +100,8 @@ h1, h2, h3, h4, h5,
 		@include media-breakpoint-down(md){
 			color: $white;
 		}
-	}	
+	}
+	
 	.navbar-nav {
 		@include media-breakpoint-down(md){
 			padding-bottom: 20px;
@@ -152,7 +165,8 @@ h1, h2, h3, h4, h5,
 					padding-top: 0;
 					color: $white;
 				}
-			}			
+			}
+			
 			&.cta {
 				> a {
 					color: $white;
@@ -179,7 +193,8 @@ h1, h2, h3, h4, h5,
 						background: $secondary !important;
 					}
 				}
-			}			
+			}
+			
 				.nav-link {
 					&.active {
 					background: transparent;
@@ -217,7 +232,8 @@ h1, h2, h3, h4, h5,
 			color: $primary;
 			outline: none !important;
 		}
-	}	
+	}
+	
 	&.scrolled  {
 		position: fixed;
 		right: 0;
@@ -264,6 +280,7 @@ h1, h2, h3, h4, h5,
 				}
 			}
 		}
+
 		.navbar-nav {
 			@include media-breakpoint-down(md) {
 				background: none;
@@ -273,6 +290,7 @@ h1, h2, h3, h4, h5,
 				margin-left: 0 !important;
 			}
 		}
+
 		.navbar-toggler {
 			border: none;
 			color: rgba(0,0,0,.5)!important;
@@ -305,6 +323,7 @@ h1, h2, h3, h4, h5,
 		}
 	}
 }
+
 .navbar-brand {
 	font-weight: 900;
 	font-size: 26px;
@@ -326,6 +345,8 @@ h1, h2, h3, h4, h5,
 		color: $white;
 	}
 }
+
+
 .hero-wrap{
 	width: 100%;
 	height: 100%;
@@ -349,6 +370,7 @@ h1, h2, h3, h4, h5,
 		width: 100%;
 	}
 }
+
 .slider-text{
 	.subheading{
 			text-transform: uppercase;
@@ -411,6 +433,9 @@ h1, h2, h3, h4, h5,
 		font-size: 60px;
 	}
 }
+
+
+
 //MOUSE WHEEL
 .mouse{
   position: absolute;
@@ -493,6 +518,8 @@ h1, h2, h3, h4, h5,
 	    opacity: 0;
 	}
 }
+
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba($primary, 0.4);
@@ -534,6 +561,8 @@ h1, h2, h3, h4, h5,
 .bg-primary{
 	background: $primary;
 }
+
+
 //BUTTON
 .btn {
 	cursor: pointer;
@@ -659,6 +688,8 @@ h1, h2, h3, h4, h5,
 		}
 	}
 }
+
+
 #navi {
   top: 180px;
   position: -webkit-sticky;
@@ -706,6 +737,10 @@ h1, h2, h3, h4, h5,
 		color: $primary;
 	}
 }
+
+
+
+
 .resume-wrap{
 	width: 100%;
 	margin-bottom: 30px;
@@ -827,6 +862,9 @@ h1, h2, h3, h4, h5,
 		}
 	}
 }
+
+
+
 //SKILLS--------------------
 .progress-wrap{
 	width: 100%;
@@ -875,6 +913,8 @@ h1, h2, h3, h4, h5,
 		color: $black;
 	}
 }
+
+
 .progress-circle{
 	.progress {
 	  width: 150px;
@@ -973,6 +1013,8 @@ h1, h2, h3, h4, h5,
 		color: rgba(255,255,255,.9);
 	}
 }
+
+
 //PROJECT
 .project{
 	width: 100%;
@@ -1057,6 +1099,8 @@ h1, h2, h3, h4, h5,
 		}
 	}
 }
+
+
 // USEFUL CODE
 .aside-stretch{
 	background: lighten($primary,10%);
@@ -1111,6 +1155,8 @@ textarea.form-control {
 .bg-primary {
 	background: $primary!important;
 }
+
+
 //ABOUT
 .about-author{
 	@include border-radius(5px);
@@ -1202,6 +1248,8 @@ textarea.form-control {
 		color: $black;
 	}
 }
+
+
 .ftco-footer-social {
 	li {
 		list-style: none;
@@ -1474,6 +1522,8 @@ textarea.form-control {
 		}
 	}
 }
+
+
 .block-23 {
 	ul {
 		padding: 0;
@@ -1518,7 +1568,8 @@ textarea.form-control {
 			font-size: 16px;
 		}
 	}
-}
+} 
+
 .block-27 {
 	ul {
 		padding: 0;
@@ -1829,6 +1880,9 @@ textarea.form-control {
 		}
 	}
 }
+
+
+
 #ftco-loader {
 	position: fixed;
 	width:  96px;
