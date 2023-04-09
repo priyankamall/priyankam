@@ -1379,19 +1379,19 @@ pre {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #b8daff; }
+  background-color: #667180;}/* #b8daff*/
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #7abaff; }
+  border-color: #667180;} /*#7abaff*/
 
 .table-hover .table-primary:hover {
   background-color: #9fcdff; }
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #9fcdff; }
+    background-color: #667180;} /*#9fcdff*/
 
 .table-secondary,
 .table-secondary > th,
