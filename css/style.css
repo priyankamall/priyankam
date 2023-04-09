@@ -2065,8 +2065,8 @@ textarea.form-control {
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgb(128,128,128); /*rgba(0, 123, 255, 0.25);*/
+    box-shadow: 0 0 0 0.2rem rgb(128,128,128);} /*rgba(0, 123, 255, 0.25); }*/
   .btn.disabled, .btn:disabled {
     opacity: 0.65; }
 
@@ -2076,28 +2076,28 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff; }
+  background-color: #3b424a;/* #007bff;*/
+  border-color: #3b424a;} /* #007bff; }*/
   .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc; }
+    background-color: #3b424a; /*#0069d9;*/
+    border-color: #3b424a;} /*#0062cc; }*/
   .btn-primary:focus, .btn-primary.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(128,128,128,0);/*rgba(38, 143, 255, 0.5);*/
+    box-shadow: 0 0 0 0.2rem rgba(128,128,128,0);} /*rgba(38, 143, 255, 0.5); }*/
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff; }
+    background-color: #3b424a; /*#007bff;*/
+    border-color: #3b424a;}/*#007bff; }*/
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0062cc;
-    border-color: #005cbf; }
+    background-color: #3b424a;/* #0062cc;*/
+    border-color: #3b424a;} /* #005cbf; }*/
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
-      -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-      box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
+      -webkit-box-shadow: 0 0 0 0.2rem rgba(128,128,128,0); /*rgba(38, 143, 255, 0.5);*/
+      box-shadow: 0 0 0 0.2rem rgba(128,128,128,0);}/* rgba(38, 143, 255, 0.5); }*/
 
 .btn-secondary {
   color: #fff;
