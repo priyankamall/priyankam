@@ -244,12 +244,10 @@ Copyright (c) 2015 Daniel Eden
     transform: translate3d(10px, 0, 0);
   }
 }
-
 .shake {
   -webkit-animation-name: shake;
   animation-name: shake;
 }
-
 @-webkit-keyframes swing {
   20% {
     -webkit-transform: rotate3d(0, 0, 1, 15deg);
