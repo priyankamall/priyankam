@@ -8972,7 +8972,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: 0;
-    background: #3e64ff;
+    background: #3a3f45; /*#3e64ff;*/
     z-index: -1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -9012,7 +9012,7 @@ h1, h2, h3, h4, h5,
     opacity: 1; }
 
 .aside-stretch {
-  background: #718dff; }
+  background: #3a3f45;} /*#718dff; }*/
   .aside-stretch:after {
     position: absolute;
     top: 0;
@@ -9020,7 +9020,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     width: 360%;
-    background: #718dff; }
+    background: #3a3f45;} /*#718dff; }*/
   @media (max-width: 767.98px) {
     .aside-stretch {
       background: transparent; }
