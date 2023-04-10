@@ -861,8 +861,6 @@ h1, h2, h3, h4, h5,
 		color: $black;
 	}
 }
-
-
 .progress-circle{
 	.progress {
 	  width: 150px;
@@ -870,7 +868,6 @@ h1, h2, h3, h4, h5,
 	  background: none;
 	  position: relative;
 	}
-
 	.progress::after {
 	  content: "";
 	  width: 100%;
@@ -881,7 +878,6 @@ h1, h2, h3, h4, h5,
 	  top: 0;
 	  left: 0;
 	}
-
 	.progress>span {
 	  width: 50%;
 	  height: 100%;
@@ -890,11 +886,9 @@ h1, h2, h3, h4, h5,
 	  top: 0;
 	  z-index: 1;
 	}
-
 	.progress .progress-left {
 	  left: 0;
 	}
-
 	.progress .progress-bar {
 	  width: 100%;
 	  height: 100%;
@@ -904,7 +898,6 @@ h1, h2, h3, h4, h5,
 	  position: absolute;
 	  top: 0;
 	}
-
 	.progress .progress-left .progress-bar {
 	  left: 100%;
 	  border-top-right-radius: 80px;
@@ -913,11 +906,9 @@ h1, h2, h3, h4, h5,
 	  -webkit-transform-origin: center left;
 	  transform-origin: center left;
 	}
-
 	.progress .progress-right {
 	  right: 0;
 	}
-
 	.progress .progress-right .progress-bar {
 	  left: -100%;
 	  border-top-left-radius: 80px;
@@ -926,14 +917,12 @@ h1, h2, h3, h4, h5,
 	  -webkit-transform-origin: center right;
 	  transform-origin: center right;
 	}
-
 	.progress .progress-value {
 	  position: absolute;
 	  top: 0;
 	  left: 0;
 	}
 }
-
 // HIRE ME
 .ftco-hireme{
 	background: $primary;
