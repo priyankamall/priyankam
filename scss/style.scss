@@ -1077,17 +1077,13 @@ textarea.form-control {
   	padding-bottom: 5em;
   }
 }
-
 .ftco-animate {
 	opacity: 0;
 	visibility: hidden;
 }
-
 .bg-primary {
 	background: $primary!important;
 }
-
-
 //ABOUT
 .about-author{
 	@include border-radius(5px);
