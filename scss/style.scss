@@ -180,8 +180,7 @@ h1, h2, h3, h4, h5,
 						background: $secondary !important;
 					}
 				}
-			}
-			
+			}			
 				.nav-link {
 					&.active {
 					background: transparent;
@@ -195,8 +194,7 @@ h1, h2, h3, h4, h5,
 						}
 					}
 				}
-			}
-			
+			}			
 			@include media-breakpoint-down(md){
 				&.active {
 					> a {
