@@ -12,7 +12,6 @@ $secondary: #a0f669;
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
-
 @mixin transition($transition) {
     -moz-transition:    all $transition ease;
     -o-transition:      all $transition ease;
