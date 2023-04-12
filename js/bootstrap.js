@@ -50,7 +50,6 @@ if (typeof jQuery === 'undefined') {
   }
   $(function () {
     $.support.transition = transitionEnd()
-
     if (!$.support.transition) return
 
     $.event.special.bsTransitionEnd = {
