@@ -48,7 +48,6 @@ if (typeof jQuery === 'undefined') {
     setTimeout(callback, duration)
     return this
   }
-
   $(function () {
     $.support.transition = transitionEnd()
 
