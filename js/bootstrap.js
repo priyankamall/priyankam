@@ -81,7 +81,6 @@ if (typeof jQuery === 'undefined') {
   Alert.prototype.close = function (e) {
     var $this    = $(this)
     var selector = $this.attr('data-target')
-
     if (!selector) {
       selector = $this.attr('href')
       selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
