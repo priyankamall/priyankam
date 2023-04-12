@@ -71,7 +71,6 @@ if (typeof jQuery === 'undefined') {
  * ======================================================================== */
 +function ($) {
   'use strict';
-
   // ALERT CLASS DEFINITION
   // ======================
 
