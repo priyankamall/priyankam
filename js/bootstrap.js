@@ -118,8 +118,6 @@ if (typeof jQuery === 'undefined') {
         .emulateTransitionEnd(Alert.TRANSITION_DURATION) :
       removeElement()
   }
-
-
   // ALERT PLUGIN DEFINITION
   // =======================
 
