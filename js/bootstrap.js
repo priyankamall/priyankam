@@ -51,7 +51,6 @@ if (typeof jQuery === 'undefined') {
   $(function () {
     $.support.transition = transitionEnd()
     if (!$.support.transition) return
-
     $.event.special.bsTransitionEnd = {
       bindType: $.support.transition.end,
       delegateType: $.support.transition.end,
