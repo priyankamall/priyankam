@@ -90,11 +90,8 @@ if (typeof jQuery === 'undefined') {
       $parent = $this.closest('.alert')
     }
     $parent.trigger(e = $.Event('close.bs.alert'))
-
     if (e.isDefaultPrevented()) return
-
     $parent.removeClass('in')
-
     function removeElement() {
       // detach from parent, fire event then clean up data
       $parent.detach().trigger('closed.bs.alert').remove()
