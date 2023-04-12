@@ -89,7 +89,6 @@ if (typeof jQuery === 'undefined') {
       selector = $this.attr('href')
       selector = selector && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
     }
-
     var $parent = $(selector)
 
     if (e) e.preventDefault()
