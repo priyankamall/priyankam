@@ -40,7 +40,6 @@ if (typeof jQuery === 'undefined') {
     }
     return false // explicit for ie8 (  ._.)
   }
-
   // http://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false
