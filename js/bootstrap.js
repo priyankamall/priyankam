@@ -63,7 +63,6 @@ if (typeof jQuery === 'undefined') {
     }
   })
 }(jQuery);
-
 /* ========================================================================
  * Bootstrap: alert.js v3.3.4
  * http://getbootstrap.com/javascript/#alerts
