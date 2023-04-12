@@ -91,7 +91,6 @@ if (typeof jQuery === 'undefined') {
     if (!$parent.length) {
       $parent = $this.closest('.alert')
     }
-
     $parent.trigger(e = $.Event('close.bs.alert'))
 
     if (e.isDefaultPrevented()) return
