@@ -113,7 +113,6 @@ if (typeof jQuery === 'undefined') {
       if (typeof option == 'string') data[option].call($this)
     })
   }
-
   var old = $.fn.alert
 
   $.fn.alert             = Plugin
