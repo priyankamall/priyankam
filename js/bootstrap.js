@@ -38,7 +38,6 @@ if (typeof jQuery === 'undefined') {
         return { end: transEndEventNames[name] }
       }
     }
-
     return false // explicit for ie8 (  ._.)
   }
 
