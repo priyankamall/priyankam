@@ -77,9 +77,7 @@ if (typeof jQuery === 'undefined') {
     $(el).on('click', dismiss, this.close)
   }
   Alert.VERSION = '3.3.4'
-
   Alert.TRANSITION_DURATION = 150
-
   Alert.prototype.close = function (e) {
     var $this    = $(this)
     var selector = $this.attr('data-target')
