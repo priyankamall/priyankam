@@ -35,7 +35,6 @@
                         $respTabs.find('.resp-tabs-list').css('display', 'none');
                     }
                 }
-
                 //Assigning the h2 markup
                 var $tabItemh2;
                 $respTabs.find('.resp-tab-content').before("<h2 class='resp-accordion' role='tab'><span class='resp-arrow'></span></h2>");
