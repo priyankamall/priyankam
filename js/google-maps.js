@@ -43,7 +43,6 @@ function init() {
                 map: map,
                 icon: 'images/loc.png'
             });
-
         });
     }
     
