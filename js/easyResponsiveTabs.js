@@ -70,7 +70,6 @@
                 $respTabs.find("[role=tab]").each(function () {
                     var $currentTab = $(this);
                     $currentTab.click(function () {
-
                         var $tabAria = $currentTab.attr('aria-controls');
 
                         if ($currentTab.hasClass('resp-accordion') && $currentTab.hasClass('resp-tab-active')) {
