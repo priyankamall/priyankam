@@ -47,7 +47,6 @@
                     $tabItemh2.attr('aria-controls', 'tab_item-' + (itemCount));
                     itemCount++;
                 });
-
                 //Assigning the 'aria-controls' to Tab items
                 var count = 0,
                     $tabContent;
