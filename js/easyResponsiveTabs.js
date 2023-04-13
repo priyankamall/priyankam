@@ -57,7 +57,6 @@
                     $respTabs.find('.resp-tab-item').first().addClass('resp-tab-active');
                     $respTabs.find('.resp-accordion').first().addClass('resp-tab-active');
                     $respTabs.find('.resp-tab-content').first().addClass('resp-tab-content-active').attr('style', 'display:block');
-
                     //Assigning the 'aria-labelledby' attr to tab-content
                     var tabcount = 0;
                     $respTabs.find('.resp-tab-content').each(function () {
