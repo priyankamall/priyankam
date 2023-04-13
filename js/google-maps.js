@@ -44,7 +44,6 @@ function init() {
                 icon: 'images/loc.png'
             });
         });
-    }
-    
+    }    
 }
 google.maps.event.addDomListener(window, 'load', init);
