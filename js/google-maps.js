@@ -1,4 +1,3 @@
-
 var google;
 
 function init() {
