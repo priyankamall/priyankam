@@ -11,7 +11,6 @@ function init() {
         zoom: 7,
         // The latitude and longitude to center the map (always required)
         center: myLatlng,
-
         // How you would like to style the map. 
         scrollwheel: false,
         styles: [
