@@ -67,7 +67,6 @@
                     });
                     count++;
                 });
-
                 //Tab Click action function
                 $respTabs.find("[role=tab]").each(function () {
                     var $currentTab = $(this);
