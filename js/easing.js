@@ -8,7 +8,6 @@
  * Licensed under the MIT License:
  *   http://www.opensource.org/licenses/mit-license.php
  */
-
 // t: current time, b: begInnIng value, c: change In value, d: duration
 
 jQuery.extend( jQuery.easing,
